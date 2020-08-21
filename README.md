@@ -1,4 +1,4 @@
-# Dynamic landing
+# Dynamic landing Page
 
 ## What is it?
 DLP, is a landing page based of the chrome extention [Momentum](https://chrome.google.com/webstore/detail/momentum/). The backgound switches according to the time 
