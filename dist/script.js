@@ -2,7 +2,8 @@
 const time = document.getElementById('time'),
   greeting = document.getElementById('greeting'),
   name = document.getElementById('name'),
-  focus = document.getElementById('focus');
+  focus = document.getElementById('focus'),
+  quote = document.getElementById('quote')
 
 // Options
 const showAmPm = true;
