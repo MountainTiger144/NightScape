@@ -1,7 +1,7 @@
-# Dynamic landing Page
+# NightScape
 
 ## What is it?
-DLP, is a landing page based of the chrome extention [Momentum](https://chrome.google.com/webstore/detail/momentum/). The backgound switches according to the time 
+NightScape, is a landing page based of the chrome extention [Momentum](https://chrome.google.com/webstore/detail/momentum/). The backgound switches according to the time 
 of day and you can dynamically put in your name and your focus for today! You can put this on a website or make it into
 an extention
 
