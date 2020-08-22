@@ -160,3 +160,8 @@ showTime();
 setBgGreet();
 getName();
 getFocus();
+
+function search() {
+  var nightsearchbox = document.querySelector(".nightsearchbox").value;
+  location.replace("https://www.google.com/search?q=" + nightsearchbox + "");
+}

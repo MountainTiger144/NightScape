@@ -9,7 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
   text-align: center;
   height: 100vh;
   color: black;
@@ -47,10 +47,11 @@ h2 {
   justify-content: left;
   text-align: left;
   min-height: 20vh;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.15));
   position: absolute;
   top: 0px;
   left: 0px;
+  opacity: 1;
 }
 
 header {
@@ -100,17 +101,17 @@ main {
   margin-bottom: 5px;
 }
 
-.location .date {
-  color: #fff;
-  font-size: 10px;
-}
-
 .current .temp {
   color: #fff;
   font-size: 52px;
   font-weight: 900;
   margin: 10px 0px;
   text-shadow: 2px 10px rgba(0, 0, 0, 0.6);
+}
+
+.location .date {
+  color: #fff;
+  font-size: -0px;
 }
 
 .current .temp span {
@@ -131,4 +132,58 @@ main {
   font-style: italic;
   margin-bottom: 15px;
   text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nightsearch {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 10vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05));
+  position: absolute;
+  bottom: 30px;
+}
+
+.nightsearchbox {
+  height: 100%;
+  max-height: 30px;
+  max-width: 660px;
+  text-align: left;
+  min-height: 7vh;
+}
+
+.google_search {
+  display: flex;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wopacity {
+  height: 100%;
+  max-height: 40px;
+  width: 600%;
+  max-width: 35px;
+  display: flex;
+  flex-direction: right;
+  align-items: right;
+  justify-content: right;
+  text-align: right;
+  min-height: 7vh;
+  position: absolute;
+  bottom: 0px;
+  right: 20px;
+  opacity: 0.3;
 }
