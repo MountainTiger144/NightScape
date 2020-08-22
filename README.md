@@ -17,5 +17,5 @@ https://i.imgur.com/n2X1RE3.jpg
 
 3. Once open go to your google settings and in the start-up tab, add a new page and paste the copied link there:
 https://i.imgur.com/06tS24R.jpg?1
-
+ 
 4. Restart google and you should see the welcome page!
