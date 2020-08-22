@@ -13,9 +13,9 @@ an extention
 1. Download the `.zip` file and place it in a location `(eg. C:\users\Mountain\Doccuments\NightScape)`
 
 2. Got to `\dist\index.js` and click on index.js. **Copy the browser link**.
-https://i.imgur.com/n2X1RE3.jpg 
+![Screenshot](https://i.imgur.com/n2X1RE3.jpg)
 
 3. Once open go to your google settings and in the start-up tab, add a new page and paste the copied link there:
-https://i.imgur.com/06tS24R.jpg?1
+![Screenshot](https://i.imgur.com/06tS24R.jpg?1)
 
 4. Restart google and you should see the welcome page!
