@@ -17,9 +17,10 @@
     <h2>What is your main focus for today?</h2>
     <h2 id="focus" contenteditable="true">[Focus]</h2>
 <!-- partial -->
+
 <div class="app-wrap" id="p1">
   <header>
-    <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city..." />
+    <input id="weathercol" type="text" autocomplete="off" class="search-box" placeholder="Search for a city..." />
   </header>
   <main>
     <section class="location">
@@ -33,7 +34,9 @@
     </div>
   </main>
 </div>
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <div class="nightsearch">
   <header>
     <div class="google_search">
@@ -44,6 +47,7 @@
     </div>
   </header>
 </div>
+
 <div class="wopacity">
     <script>
       function myFunction(button) {
@@ -64,6 +68,7 @@
     </script>
   <button data-opacity="0" onclick="myFunction(this)">Weather on/off</button>
 </div>
+
 <script  src="./script.js"></script>
 </body>
 </html>
